@@ -25,11 +25,11 @@ public class Act1U3 {
         Scanner ingreso = new Scanner(System.in);
 
         Empleado empleado = new Empleado();
-        
+        Directivo directivo = new Directivo();
         
         System.out.println("Bienvenido a la Actividad 1 de la Unidad 3 de POO\n");
         empleado.ingresenombre();
-        
+        directivo.determinarDirectivo(nombre, apellido, edad);
 
     }
 

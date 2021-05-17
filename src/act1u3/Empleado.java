@@ -27,7 +27,7 @@ public class Empleado extends Act1U3 {
         System.out.println("\nIngrese su edad: ");
         edad = ingreso.nextInt();
         
-        if (nombre.equalsIgnoreCase("Luis") || nombre.equalsIgnoreCase("Dania")) {
+        if (nombre.equalsIgnoreCase("Luis") || nombre.equalsIgnoreCase("Dania") || nombre.equalsIgnoreCase("Pablo")) {
             
         } else {
             System.out.println("\nIngrese su clave de empleado: ");
