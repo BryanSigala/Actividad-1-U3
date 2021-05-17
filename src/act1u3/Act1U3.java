@@ -26,10 +26,14 @@ public class Act1U3 {
 
         Empleado empleado = new Empleado();
         Directivo directivo = new Directivo();
+        Operario operario= new Operario();
+        PuestoOperario puestoOp=new PuestoOperario();
         
         System.out.println("Bienvenido a la Actividad 1 de la Unidad 3 de POO\n");
         empleado.ingresenombre();
         directivo.determinarDirectivo(nombre, apellido, edad);
+        operario.determinarOperario(nombre, apellido, edad);
+        puestoOp.definirOperario(nombre);
 
     }
 
